@@ -1,0 +1,20 @@
+header{
+    align-items: center;
+    text-size-adjust: 50;
+    text-justify: auto;
+    align-content: center;
+    align-self: center;
+}
+nav{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    color: #56e00b;
+    
+}
+header a:hover{
+    color: #fbeb0c;
+    background-color: aqua;
+    border-radius: 0cap;
+}
