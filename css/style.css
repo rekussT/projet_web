@@ -12,6 +12,7 @@ header h1{
     text-align: center;
     color: #56e00b;
     
+    
 }
 header a:hover{
     color: #fbeb0c;
@@ -26,3 +27,10 @@ body {
     height: 200vh;
   }
 
+body h2{
+    color: #fe0000;
+}
+body p{
+    
+    color: brown;
+}
