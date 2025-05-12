@@ -18,3 +18,55 @@ header a:hover{
     background-color: aqua;
     border-radius: 0cap;
 }
+body{
+    background-color: aquamarine;
+    
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #87CEFA, #ffffff);
+    height: 100vh;
+  }
+
+  .nyan-container {
+    position: absolute;
+    top: 40%;
+    left: -300px;
+    display: flex;
+    align-items: center;
+    animation: fly 10s linear infinite;
+  }
+
+  .rainbow {
+    display: flex;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .color {
+    width: 20px;
+    height: 100%;
+    animation: trail 0.4s linear infinite;
+  }
+
+  .red { background: red; }
+  .orange { background: orange; }
+  .yellow { background: yellow; }
+  .green { background: green; }
+  .blue { background: blue; }
+  .purple { background: purple; }
+
+  #nyancat {
+    width: 150px;
+  }
+
+  @keyframes fly {
+    0% { left: -300px; }
+    100% { left: 100%; }
+  }
+
+  @keyframes trail {
+    0% { opacity: 1; transform: translateX(0); }
+    100% { opacity: 0; transform: translateX(-30px); }
+  }
