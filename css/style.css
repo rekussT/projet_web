@@ -10,20 +10,20 @@ nav{
 }
 header h1{
     text-align: center;
-    color: #56e00b;
+    color: #4c4c4cdd;
     
     
 }
 header a:hover{
-    color: #fbeb0c;
-    background-color: aqua;
+    color: #ff4a4a;
+    background-color: rgb(200, 200, 200);
     border-radius: 0cap;
 }
 
 body {
     margin: 0;
     overflow: hidden;
-    background: linear-gradient(to bottom, #87CEFA, #ffffff);
+    background: linear-gradient(to bottom, #e6e6e6, #ffffff);
     height: 200vh;
   }
 
@@ -32,5 +32,5 @@ body h2{
 }
 body p{
     
-    color: brown;
+    color: rgb(255, 0, 0);
 }
