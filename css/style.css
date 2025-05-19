@@ -30,7 +30,7 @@ header a:hover{
 body {
     
     margin: 0;
-    background: linear-gradient(to bottom, #e6e6e6, #ffffff);
+    background: linear-gradient(to top, #00fff7, #ffffff);
     height: 200vh;
 
   }
@@ -64,7 +64,13 @@ header img{
 }
 
 footer{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Logo_Efrei_2022.svg/1200px-Logo_Efrei_2022.svg.png);
+    resize: vertical;
+    
+    width: 100vw;
+    height: 200;
+    
 }
 
 .section_bulle{
@@ -73,4 +79,10 @@ footer{
     background-color: cyan;
     border-radius: 8px;
     box-shadow: inset;
+    -moz-box-align: center;
+    text-align: center;
+}
+
+.section_bulle p{
+    text-align: left;
 }
