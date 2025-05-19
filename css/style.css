@@ -7,6 +7,7 @@ header{
     background-color: #fe0000;
     size-adjust: 100%;
     
+    
 }
 nav{
     text-align: center;
@@ -24,20 +25,29 @@ header a:hover{
 }
 
 body {
+    
     margin: 0;
-    overflow: hidden;
     background: linear-gradient(to bottom, #e6e6e6, #ffffff);
     height: 200vh;
+
   }
 
 body h2{
     color: #fe0000;
+    margin: 10;
 }
 body p{
     
     color: rgb(255, 0, 0);
+    
 }
 html{
-    margin: 0;
+    
     padding: auto;
+}
+
+header img{
+    
+    
+    display: block;
 }
