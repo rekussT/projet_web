@@ -4,6 +4,9 @@ header{
     text-justify: auto;
     align-content: center;
     align-self: center;
+    background-color: #fe0000;
+    size-adjust: 100%;
+    
 }
 nav{
     text-align: center;
@@ -33,4 +36,8 @@ body h2{
 body p{
     
     color: brown;
+}
+html{
+    margin: 0;
+    padding: auto;
 }
