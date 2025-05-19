@@ -14,7 +14,8 @@ nav{
 }
 header h1{
     text-align: center;
-    color: #4c4c4cdd;
+    color: gold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
@@ -38,11 +39,11 @@ body h2{
 }
 body p{
     
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     
 }
 html{
-    
+    background-color: black;
     padding: auto;
 }
 
