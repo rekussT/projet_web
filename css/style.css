@@ -30,15 +30,18 @@ header a:hover{
 body {
     
     margin: 0;
-    background: linear-gradient(to top, #00fff7, #ffffff);
+    
     height: 200vh;
+    padding: 10;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.themedialeader.com%2Feating-popcorn-disrupts-film-advertising%2F&psig=AOvVaw0TYdmMJThKAU6X3JQZwZbr&ust=1748360431409000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjDiKa8wY0DFQAAAAAdAAAAABAE);
 
   }
 
 body h2{
     color: #fe0000;
     margin: 10;
-    
+    border-radius: 8px;
+    padding: 100;
 }
 body p{
     
@@ -84,4 +87,7 @@ footer{
 
 .section_bulle p{
     text-align: left;
+}
+p{
+    background-color: gray;
 }
