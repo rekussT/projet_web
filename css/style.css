@@ -113,3 +113,15 @@ footer{
 h1{
     padding: 10px;
 }
+
+footer p{
+    color:red;
+}
+
+a{
+    color: rgb(0, 4, 255);
+}
+
+body a:hover{
+    background-color: white;
+}
