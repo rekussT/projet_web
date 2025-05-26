@@ -40,10 +40,11 @@ body {
   }
 
 body h2{
-    color: #fe0000;
+    color: yellow;
     margin: 20px;
     border-radius: 8px;
     background-color: black;
+    max-width: 300px;
 }
 body p{
     
@@ -98,6 +99,7 @@ footer{
     box-shadow: 1;
     background-color: gray;
     border-radius: 8px;
+    max-width: 1600px;
 }
 
 .div2{
