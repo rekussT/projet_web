@@ -93,4 +93,15 @@ footer{
 .div1{
     display:flex;
     margin: 10px;
+    box-shadow: 1;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.div2{
+    display:flex;
+    margin: 10px;
+    box-shadow: 1;
+    background-color: gray;
+    border-radius: 8px;
 }
