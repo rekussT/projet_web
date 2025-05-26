@@ -40,9 +40,9 @@ body {
 
 body h2{
     color: #fe0000;
-    margin: 10;
+    margin: 20px;
     border-radius: 8px;
-    padding: 100;
+    background-color: black;
 }
 body p{
     
@@ -67,8 +67,8 @@ header img{
 }
 
 footer{
-    background-color: rgb(0, 255, 34);
-    
+    background-color: rgb(0, 0, 0);
+    color: #fe0000;
     resize: vertical;
     
     width: 100vw;
@@ -92,7 +92,7 @@ footer{
 
 .div1{
     display:flex;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 1;
     background-color: gray;
     border-radius: 8px;
@@ -100,7 +100,7 @@ footer{
 
 .div2{
     display:flex;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 1;
     background-color: gray;
     border-radius: 8px;
