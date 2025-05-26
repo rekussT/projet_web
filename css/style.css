@@ -44,7 +44,7 @@ body h2{
     margin: 20px;
     border-radius: 8px;
     background-color: black;
-    max-width: 300px;
+    max-width: fit-content;
 }
 body p{
     
