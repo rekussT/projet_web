@@ -97,7 +97,7 @@ footer{
     display:flex;
     margin: 20px;
     box-shadow: 1;
-    background-color: gray;
+    background-color: rgba(248, 248, 255, 0.493);
     border-radius: 8px;
     max-width: 1600px;
 }
@@ -112,7 +112,7 @@ footer{
 
 h1{
     padding: 10px;
-    background-color:#ff4a4a;
+    background-color:chocolate;
     max-width: fit-content;
     border-radius: 8px;
 }
