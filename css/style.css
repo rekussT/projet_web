@@ -106,9 +106,21 @@ footer{
 
 .div2{
     display:flex;
+    position: absolute;
+    offset: (500,500);
     margin: 20px;
     box-shadow: 1;
-    background-color: gray;
+    background-color: rgb(128, 128, 128);
+    border-radius: 8px;
+}
+
+.div3{
+    display:flex;
+    position: absolute;
+    
+    margin: 200px;
+    box-shadow: 1;
+    background-color: rgb(128, 128, 128);
     border-radius: 8px;
 }
 
