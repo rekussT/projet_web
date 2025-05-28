@@ -107,8 +107,12 @@ footer{
 .div2{
     display:flex;
     position: absolute;
-    offset: (500,500);
-    margin: 20px;
+    top: 1550px;
+    left: 100px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    margin: 0px;
     box-shadow: 1;
     background-color: rgb(128, 128, 128);
     border-radius: 8px;
@@ -117,11 +121,20 @@ footer{
 .div3{
     display:flex;
     position: absolute;
+    top: 1550px;
+    left: 1500px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
     
-    margin: 200px;
+    margin: 0px;
     box-shadow: 1;
     background-color: rgb(128, 128, 128);
     border-radius: 8px;
+}
+.div3 a{
+    text-align: center;
+    content:center;
 }
 
 h1{
