@@ -107,8 +107,8 @@ footer{
 .div2{
     display:flex;
     position: absolute;
-    top: 1550px;
-    left: 100px;
+    top: 190vh;
+    left: 7vw;
     height: 60px;
     width: 120px;
     text-align: center;
@@ -121,8 +121,8 @@ footer{
 .div3{
     display:flex;
     position: absolute;
-    top: 1550px;
-    left: 1500px;
+    top: 190vh;
+    left: 86vw;
     height: 60px;
     width: 120px;
     text-align: center;
@@ -225,4 +225,8 @@ tbody th {
   object-fit: cover;
   display: block;
   margin: auto;
+}
+
+form{
+  background: linear-gradient(green,red);
 }
