@@ -6,53 +6,49 @@ header{
     align-self: center;
     background-color: grey;
     size-adjust: 100%;
-    
-    
-    
+
 }
 nav{
     text-align: center;
-    color: aqua;
+    color: rgb(255, 255, 255);
     cursor:crosshair;
 }
+
 header h1{
     text-align: center;
     color: gold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
+
 }
+
 header a:hover{
-    color: #ff4a4a;
+    color: #fc2525;
     background-color: rgb(255, 255, 0);
     border-radius: 8px;
 }
 
-body {
-    
+body{
     margin: 0;
     
     height: 200vh;
     padding: 10;
     background-image: url(/img/popcorn_bg.jpg);
-    
-
-    
-
   }
 
 body h2{
     color: yellow;
     margin: 20px;
     border-radius: 8px;
-    background-color: black;
+    background-color: rgb(60, 60, 60);
     max-width: fit-content;
 }
+
 body p{
     
-    color: rgb(0, 0, 0);
+    color: rgb(60, 60, 60);
     
 }
+
 html{
     background-color: rgb(0, 0, 0);
     padding: auto;
@@ -63,6 +59,7 @@ header img{
     
     display: block;
 }
+
 .fullscreen-image{
     width: 100vw;
   height: 20vh;
@@ -71,7 +68,7 @@ header img{
 }
 
 footer{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(70, 70, 70);
     color: #fe0000;
 
     resize: vertical;
@@ -84,7 +81,7 @@ footer{
 .section_bulle{
     padding: 30;
     margin: 10;
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(255, 217, 46);
     border-radius: 8px;
     box-shadow: inset;
     -moz-box-align: center;
@@ -132,6 +129,7 @@ footer{
     background-color: rgb(128, 128, 128);
     border-radius: 8px;
 }
+
 .div3 a{
     text-align: center;
     content:center;
@@ -143,33 +141,31 @@ h1{
     max-width: fit-content;
     border-radius: 8px;
 }
+
 header h1{
     background-color: #34495e;
     max-width:100vw;
     border-radius: 0%;
 }
 
-
 footer p{
-    color:red;
+    color:rgb(255, 45, 45);
 }
 
 a{
-    color: rgb(0, 4, 255);
+    color: rgb(255, 0, 0);
 }
 
 body a:hover{
     background-color: white;
 }
 
-
-
-section {
+section{
   padding: 2rem;
   
 }
 
-table {
+table{
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -182,7 +178,7 @@ table {
   font-family: Arial, sans-serif;
 }
 
-caption {
+caption{
   caption-side: top;
   padding: 1rem;
   font-size: 1.5rem;
@@ -191,34 +187,34 @@ caption {
   color: white;
 }
 
-thead {
+thead{
   background-color: #34495e;
   color: white;
 }
 
-thead th {
+thead th{
   padding: 1rem;
   text-align: left;
   font-size: 1rem;
   border-bottom: 2px solid #2c3e50;
 }
 
-tbody tr {
+tbody tr{
   transition: background-color 0.3s ease;
 }
 
-tbody tr:hover {
+tbody tr:hover{
   background-color: #ecf0f1;
 }
 
 tbody td,
-tbody th {
+tbody th{
   padding: 1rem;
   border-bottom: 1px solid #ddd;
   vertical-align: middle;
 }
 
-.image {
+.image{
   width: 80px;
   height: 80px;
   border-radius: 8px;
@@ -228,5 +224,5 @@ tbody th {
 }
 
 form{
-  background: linear-gradient(green,red);
+  background: linear-gradient(blue,red);
 }
