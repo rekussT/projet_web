@@ -59,6 +59,7 @@ html{
     padding: auto;
     min-height: 100%;
     position: relative;
+    max-height: max-content;
 
 }
 
@@ -111,8 +112,8 @@ footer{
 
 .div2{
     display:flex;
-    position: absolute;
-    top: 183vh;
+    position: sticky;
+    bottom: 15%;
     left: 7vw;
     height: 60px;
     width: 120px;
@@ -125,9 +126,9 @@ footer{
 
 .div3{
     display:flex;
-    position: absolute;
-    top: 183vh;
-    left: 86vw;
+    position: sticky;
+    bottom: 15%;
+    left: 80%;
     height: 60px;
     width: 120px;
     text-align: center;
@@ -164,7 +165,7 @@ a{
     color: rgb(255, 0, 0);
 }
 
-body a:hover{
+ a:hover{
     background-color: white;
 }
 
@@ -233,4 +234,12 @@ tbody th{
 
 form{
   background: linear-gradient(blue,red);
+}
+
+form{
+  color: white;
+}
+
+form p{
+  color: white;
 }
