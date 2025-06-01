@@ -66,5 +66,5 @@ document.getElementById("quiz_cine").addEventListener("submit", function() {
             score++;
         }
     });
-    alert("Votre score est : " + score + " / 6");
+    alert("Votre score est : " + score + " / 6 ✅");
 });
