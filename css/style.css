@@ -24,9 +24,12 @@ header a:hover{
 }
 body{
     margin: 0;
-    height: 200vh;
+    height: auto;
     padding: 10;
-    background-image: url(/img/popcorn_bg.jpg);
+    background-image: url(/img/imagenuage.jpg);
+    image-rendering: smooth;
+    
+    width: 100%;
     max-height: fit-content;
   }
 body h2{
@@ -86,7 +89,7 @@ footer{
 .div2{
     display:flex;
     position: sticky;
-    bottom: 15%;
+    bottom: 10%;
     left: 7vw;
     height: 60px;
     width: 120px;
@@ -99,7 +102,7 @@ footer{
 .div3{
     display:flex;
     position: sticky;
-    bottom: 15%;
+    bottom: 10%;
     left: 80%;
     height: 60px;
     width: 120px;
