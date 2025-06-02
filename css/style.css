@@ -191,6 +191,10 @@ tbody th{
 }
 form{
   background: linear-gradient(blue,red);
+  color: #ffffff;
+}
+form p{
+  color: #f6ff00;
 }
 
 /* Pour le js*/
